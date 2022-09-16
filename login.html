@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/productos.css" >
     <link rel="stylesheet" href="./assets/css/cabecera.css" >
     <link rel="stylesheet" href="./assets/css/add.products.css" >
+    <link rel="stylesheet" href="./assets/css/login.css" >
     <link rel="preconnect" href="http://fonts.googleapis.com" >
     <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin >
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -25,22 +27,39 @@
                     <input type="search" class="busqueda_campo" placeholder="¿que deseas buscar?" name="search">
                     <button class="button-busqueda"><img src="./assets/img/lupa.png" alt="Icono Lupa"></button>
                 </div>
-                <a href= "login.html"><button class="login">Menu Admin</button></a>
                 <button class="button-busqueda-login"><img src="./assets/img/lupa-negro.png" alt="Icono lupa"></button>
             </div>
         </header>
         <main>
-            <section class="product-add">
-                <form class="form-control" data-form>
-                    <p class="paragrafo">Agregar un nuevo producto</p>
-                    <input class="product-add-input__url" type="text" placeholder="URL del producto"  data-url>
-                    <input class="product-add-input__name" type="text" placeholder="Nombre del producto"  data-name >
-                    <input class="product-add-input__price" type="text" placeholder="Precio del producto"  data-precio>
-                    <input class="product-add-textarea__description" placeholder="descripcion del producto" data-description>
-                    <button type="submit" class="product-add_btn">Agregar producto</button>
+            <section class="iniciarSesion">
+                <form class="iniciarSesion_form" data-form>
+                    <p class="parrafo">Iniciar Sesion</p>
+                    <input class="email-input" type="email" placeholder="Email"  data-email>
+                    <input class="name-input" type="text" placeholder="Nombre"  data-name >
+                    <button type="submit" class="iniciarSesion_btn">Entrar</button>
                 </form>
             </section>
+            
         </main>
+        <section class="quienesSomos">
+            <div class="quienesSomos_container">
+                <img class="quienesSomos_logo" src="./assets/img/Logo.svg" alt="AluraGeeK logo">
+                <div class="quienesSomos_parrafos">
+                    <p>Quienes somos</p>
+                    <p>Politica de privacidad</p>
+                    <p>Programa de fidelidad</p>
+                    <p>Nuestras Tiendas</p>
+                    <p>Quiero ser franquiciado</p>
+                    <p>Anuncie aquí</p>
+                </div>
+                <div  class="hableConNosotros">
+                    <h2 class="formcontato__title">Hable con nosotros</h2>
+                    <input class="nombre" type="text" name="nombre" placeholder="Nombre">
+                     <textarea class="textarea"  id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    <button  type="#" class="btn" action="javascript:void(0)" >Enviar mensaje</button>
+                </div>
+            </div>
+        </section>              
         <footer class="footer">Desarrollado por Claudio Torancio - 2022</footer>
         <script type="module" src="./controllers/crear-productos-controllers.js"></script>
     </body>
