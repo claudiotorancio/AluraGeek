@@ -1,0 +1,55 @@
+{
+  "producto": [
+    {
+      "name": "Hulk",
+      "imageUrl": "https://www.futuro.cl/wp-content/uploads/2018/09/29710722267_f9af8fece0_b.jpg",
+      "price": "$200",
+      "id": 2,
+      "alt": "Product",
+      "Section": "Posters",
+      "description": "Poster"
+    },
+    {
+      "name": "Hombre de hierro",
+      "imageUrl": "https://st2.depositphotos.com/1012627/10885/i/950/depositphotos_108853992-stock-photo-super-hero-iron-man.jpg",
+      "price": "$500",
+      "description": "poster",
+      "id": 12
+    },
+    {
+      "name": "Taza truuper",
+      "imageUrl": "https://locasa.com.pe/wp-content/uploads/2021/07/storm_trooper1_500x500.jpg",
+      "price": "$1500",
+      "description": "taza",
+      "id": 13
+    },
+    {
+      "name": "Mini Yoda",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0568/5824/7366/products/F2849-4.gif?v=1660591382&width=1445",
+      "price": "$1200",
+      "description": "Muñeco",
+      "id": 14
+    },
+    {
+      "name": "Spider-Man",
+      "imageUrl": "http://emiliux31.com/wp-content/uploads/2019/01/50182964_2142183392777160_8091969598301143040_n-1.jpg",
+      "price": "$500",
+      "description": "Poster",
+      "id": 15
+    },
+    {
+      "name": "Supercan",
+      "imageUrl": "https://tierragamer.com/wp-content/uploads/2021/06/Captura-de-Pantalla-2021-06-08-a-las-16.53.38.jpg",
+      "price": "$500",
+      "description": "Poster",
+      "id": 16
+    },
+    {
+      "name": "asdfa",
+      "imageUrl": "https://www.blogodisea.com/wp-content/uploads/2015/04/superperro-krypto.jpg",
+      "price": "asdfasd",
+      "description": "asdfa",
+      "id": 17
+    }
+  ]
+}
