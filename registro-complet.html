@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,41 +29,13 @@
                 <button class="button-busqueda-login"><img src="./assets/img/lupa-negro.png" alt="Icono lupa"></button>
             </div>
         </header>
-        <main>
-            <section class="iniciarSesion">
-                <h1 class="parrafo">Iniciar Sesion</h1>
-                <form action="" class="iniciarSesion_form" data-form>                
-                   <div class="input-container"> 
-                        <input 
-                        name="email" 
-                        id="email" 
-                        class="email-input" 
-                        type="email" 
-                        placeholder="Email"  
-                        required 
-                        data-email
-                        />
-                        <label class="input-label" for="email">Email</label>
-                        <span class="input-menssage-error">Este campo es requerido</span>
-                    </div class="input-container">
-                        <input 
-                        name="password" 
-                        id="password" 
-                        class="password-input" 
-                        type="password" 
-                        placeholder="Contraseña"  
-                        required 
-                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, maximo 12, debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales"   
-                        data-contrasena
-                        />
-                        <label class="input-label" for="email">Ingrese su contraseña</label>
-                        <span class="input-menssage-error">Este campo es requerido</span>
-                    <div>
-                    <button type="submit" class="iniciarSesion_btn">Entrar</button>
-                </form>
-            </section>
-            
-        </main>
+            <main class="container flex flex--column flex--center">
+              <section class="register-card card">
+                <span class="register-card__icon-complete"></span>
+                <h1 class="register-card__title card__title">¡Registro completado!</h1>
+                <a href="./lista_cliente.html" class="button">Ver clientes</a>
+              </section>
+            </main>
         <section class="quienesSomos">
             <div class="quienesSomos_container">
                 <img class="quienesSomos_logo" src="./assets/img/Logo.svg" alt="AluraGeeK logo">
