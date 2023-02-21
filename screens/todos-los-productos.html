@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/reset.css" >
+    <link rel="stylesheet" href="../assets/css/style.css" >
+    <link rel="stylesheet" href="../assets/css/productos.css" >
+    <link rel="stylesheet" href="../assets/css/cabecera.css" >
+    <link rel="stylesheet" href="../assets/css/add.products.css" >
+    <link rel="preconnect" href="http://fonts.googleapis.com" >
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin >
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="../assets/img/Logo.svg" width="16" height="16" >
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <div class="cabecera_container">
+            <img class="cabecera_logo" src="../assets/img/Logo.svg" alt="AluraGeeK logo">
+            <div class="busqueda">
+                <input type="search" class="busqueda_campo" placeholder="¿que deseas buscar?" name="search">
+                <button class="button-busqueda"><img src="../assets/img/lupa.png" alt="Icono Lupa"></button>
+            </div>
+            <button class="button-busqueda-login"><img src="../assets/img/lupa-negro.png" alt="Icono lupa"></button>
+        </div>
+    </header>
+    <main>
+        
+            <section class="categoria">                
+                <div class="texto-categoria">
+                <h2>Todos los productos</h2>
+                <a href="./add-products.html"><button class="login">Agregar producto</button></a>
+                </div>
+                <div class="productos" datos-productos>
+                </div>
+            </section>
+            <section class="categoria" id="consolas">    
+            <div class="productos">            
+                <div class="card">
+                    <img src="../assets/img/consolas-1.png" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/consolas-2.png" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/consolas-3.png" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/consolas-4.png" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/consolas-5.png" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+            </div>
+        </section> 
+        <section class="categoria" id="diversos">    
+            <div class="productos">            
+                <div class="card">
+                    <img src="../assets/img/free-fire.jpg" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/cs-go.jpg" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/gta-v.jpg" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/mario-kart.jpg" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+                <div class="card">
+                    <img src="../assets/img/onefotball.jpeg" alt="">
+                    <h3>Producto XYZ</h3>
+                    <p>$ 60,00</p>
+                    <a href="">Ver producto</a>
+                </div>
+            </div>
+        </section>
+        <section class="quienesSomos">
+            <div class="quienesSomos_container">
+                <img class="quienesSomos_logo" src="../assets/img/Logo.svg" alt="AluraGeeK logo">
+                <div class="quienesSomos_parrafos">
+                    <p>Quienes somos</p>
+                    <p>Politica de privacidad</p>
+                    <p>Programa de fidelidad</p>
+                    <p>Nuestras Tiendas</p>
+                    <p>Quiero ser franquiciado</p>
+                    <p>Anuncie aquí</p>
+                </div>
+                <div  class="hableConNosotros">
+                    <h2 class="formcontato__title">Hable con nosotros</h2>
+                    <input class="nombre" type="text" name="nombre" placeholder="Nombre">
+                     <textarea class="textarea"  id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    <button  type="#" class="btn" action="javascript:void(0)" >Enviar mensaje</button>
+                </div>
+            </div>
+        </section>                          
+    </main>
+    <footer class="footer">Desarrollado por Claudio Torancio - 2022</footer>
+    <script type="module" src="./servicios/productos-servicios.js"></script>
+    <script type="module" src="../controllers/productos-controllers.js"></script>
+</body>
+</html>

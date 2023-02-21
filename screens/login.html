@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/productos.css">
+    <link rel="stylesheet" href="../assets/css/cabecera.css">
+    <link rel="stylesheet" href="../assets/css/add.products.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="../assets/img/Logo.svg" width="16" height="16">
+    <title>AluraGeek</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="cabecera_container">
+            <img class="cabecera_logo" src="../assets/img/Logo.svg" alt="AluraGeeK logo">
+            <div class="busqueda">
+                <form action=""></form>
+                <input type="search" class="busqueda_campo" placeholder="¿que deseas buscar?" name="search">
+                <button class="button-busqueda"><img src="../assets/img/lupa.png" alt="Icono Lupa"></button>
+            </div>
+            <button class="button-busqueda-login"><img src="../assets/img/lupa-negro.png" alt="Icono lupa"></button>
+        </div>
+    </header>
+    <main>
+        <section class="iniciarSesion">
+            <h1 class="parrafo">Registrarse</h1>
+            <form action="" class="iniciarSesion_form" data-form>
+                <div class="input-container">
+                    <input name="email" id="email" class="email-input" type="email" placeholder="Email" required
+                        data-email />
+                    
+                </div>
+                <div class="input-container">
+                <input name="password" id="password" class="password-input" type="password" placeholder="Contraseña"
+                    required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%^&*_=+-]).{6,12}$"
+                    title="Al menos 6 caracteres, maximo 12, debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales"
+                    data-contrasena />
+                
+                </div>
+                    <button type="submit" class="iniciarSesion_btn">Registrar</button>
+            </form>
+        </section>
+
+    </main>
+    <section class="quienesSomos">
+        <div class="quienesSomos_container">
+            <img class="quienesSomos_logo" src="../assets/img/Logo.svg" alt="AluraGeeK logo">
+            <div class="quienesSomos_parrafos">
+                <p>Quienes somos</p>
+                <p>Politica de privacidad</p>
+                <p>Programa de fidelidad</p>
+                <p>Nuestras Tiendas</p>
+                <p>Quiero ser franquiciado</p>
+                <p>Anuncie aquí</p>
+            </div>
+            <div class="hableConNosotros">
+                <h2 class="formcontato__title">Hable con nosotros</h2>
+                <input class="nombre" type="text" name="nombre" placeholder="Nombre">
+                <textarea class="textarea" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <button type="#" class="btn" action="javascript:void(0)">Enviar mensaje</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">Desarrollado por Claudio Torancio - 2022</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    
+    <script type="module" src="../controllers/registro.controller.js"></script>
+</body>
+
+</html>

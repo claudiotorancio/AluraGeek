@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/reset.css" >
+    <link rel="stylesheet" href="../assets/css/style.css" >
+    <link rel="stylesheet" href="../assets/css/productos.css" >
+    <link rel="stylesheet" href="../assets/css/cabecera.css" >
+    <link rel="stylesheet" href="../assets/css/add.products.css" >
+    <link rel="preconnect" href="http://fonts.googleapis.com" >
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin >
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="../assets/img/Logo.svg" width="16" height="16" >
+    <title>AluraGeek</title>
+
+</head>
+    <body>
+        <header class="header">
+            <div class="cabecera_container">
+                <img class="cabecera_logo" src="../assets/img/Logo.svg" alt="AluraGeeK logo">
+                <div class="busqueda">
+                    <form action=""></form>
+                    <input type="search" class="busqueda_campo" placeholder="¿que deseas buscar?" name="search">
+                    <button class="button-busqueda"><img src="../assets/img/lupa.png" alt="Icono Lupa"></button>
+                </div>
+                <a href= "login.html"><button class="login">Menu Admin</button></a>
+                <button class="button-busqueda-login"><img src="../assets/img/lupa-negro.png" alt="Icono lupa"></button>
+            </div>
+        </header>
+        <main>
+            <section class="product-add">
+                <form class="form-control" data-form>
+                    <p class="paragrafo">Agregar un nuevo producto</p>
+                    <input class="product-add-input__url" type="text" placeholder="URL del producto"  data-url>
+                    <input class="product-add-input__name" type="text" placeholder="Nombre del producto"  data-name >
+                    <input class="product-add-input__price" type="text" placeholder="Precio del producto"  data-precio>
+                    <input class="product-add-textarea__description" placeholder="descripcion del producto" data-description>
+                    <button type="submit" class="product-add_btn">Agregar producto</button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">Desarrollado por Claudio Torancio - 2022</footer>
+        <script type="module" src="../controllers/crear-productos-controllers.js"></script>
+    </body>
+</html>
