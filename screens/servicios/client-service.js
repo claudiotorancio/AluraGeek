@@ -35,7 +35,25 @@ const  crearCliente = (email, contrasena,) => {
     .then((respuesta) => respuesta)
     .catch((err) => console.log(err))
  }
- 
+
+
+ const validarUsuario = (email, contrasena) => {
+  return fetch('http://localhost:3000/perfil/')
+    .then(response => response.json())
+    .then(data => {
+      const usuario = data.find(user => user.email === email);
+      if (usuario && usuario.contrasena === contrasena) {
+        alert('Bienvenido: ' + email)
+        console.log("Usuario autenticado");
+        return true;
+      } else {
+        alert("Usuario o contraseña incorrectos")
+        console.log("Usuario o contraseña incorrectos");
+        return false;
+      }
+    })
+    .catch(error => console.error(error));
+}
 
 export const clienteServices = {
     listaClientes,
@@ -43,5 +61,5 @@ export const clienteServices = {
     eliminarCliente,
     detalleCliente,
     actualizarCliente,
-
+    validarUsuario
 };

@@ -33,13 +33,12 @@
     </header>
     <main>
         <section class="iniciarSesion">
-            <h1 class="parrafo">Iniciar Sesion</h1>
+            <h1 class="parrafo">Registro</h1>
             <form action="" class="iniciarSesion_form" data-form>
-            <p>Todavia no sos cliente?</p>
-                <a href="./Registro.html">Registrate ahora!</a>
                 <div class="input-container">
                     <input name="email" id="email" class="email-input" type="email" placeholder="Email" required
                         data-email />
+                    
                 </div>
                 <div class="input-container">
                 <input name="password" id="password" class="password-input" type="password" placeholder="Contraseña"
@@ -48,7 +47,7 @@
                     data-contrasena />
                 
                 </div>
-                    <button type="submit" class="iniciarSesion_btn">Iniciar Sesion</button>
+                    <button type="submit" class="iniciarSesion_btn">Registrarse</button>
             </form>
         </section>
 
@@ -73,9 +72,9 @@
         </div>
     </section>
     <footer class="footer">Desarrollado por Claudio Torancio - 2022</footer>
-   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
     
-    <script type="module" src="../controllers/login.controller.js"></script>
+    <script type="module" src="../controllers/registro.controller.js"></script>
 </body>
 
 </html>
