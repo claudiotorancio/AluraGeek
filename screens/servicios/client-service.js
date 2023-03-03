@@ -37,15 +37,26 @@ const  crearCliente = (email, contrasena,) => {
  }
 
 
- const validarUsuario = (email, contrasena) => {
+ const validarUsuario = (email, contrasena,) => {
   return fetch('http://localhost:3000/perfil/')
     .then(response => response.json())
     .then(data => {
+
       const usuario = data.find(user => user.email === email);
+
       if (usuario && usuario.contrasena === contrasena) {
-        alert('Bienvenido: ' + email)
+        if(usuario.rol === 'admin'){
+
+            alert('Benevemido administrador: ' + email)
+            window.location.href = './add-products.html'
+
+        }else{
+
+            alert('Bienvenido: ' + email)
         console.log("Usuario autenticado");
         return true;
+        }
+        
       } else {
         alert("Usuario o contraseña incorrectos")
         console.log("Usuario o contraseña incorrectos");
@@ -54,6 +65,8 @@ const  crearCliente = (email, contrasena,) => {
     })
     .catch(error => console.error(error));
 }
+
+
 
 export const clienteServices = {
     listaClientes,

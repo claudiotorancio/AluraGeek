@@ -1,10 +1,10 @@
 import { productoServices } from "../screens/servicios/productos-servicios.js";
 
-const nuevoProducto = (name, price, ImageUrl) => {
+const nuevoProducto = (name, price, imageUrl) => {
     const card = document.createElement("div");
     const contenido = `
     <div>
-        <img src= ${ImageUrl} alt="">
+        <img src= ${imageUrl} alt="">
         <h3>${name}</h3>
         <p>${price}</p>
         <a href="">Ver producto</a>
@@ -33,3 +33,4 @@ const render = async () => {
 }
 
 render()
+

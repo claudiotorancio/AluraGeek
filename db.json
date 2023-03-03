@@ -3,80 +3,60 @@
     {
       "email": "claudio@alura.com",
       "contrasena": "Claudio21",
-      "id": "2b4016e7-74b1-4ea1-94fb-195ef0869525"
+      "id": "2b4016e7-74b1-4ea1-94fb-195ef0869525",
+      "rol": "admin"
     },
     {
-      "email": "agus@gmail.com",
-      "contrasena": "Agustin21",
-      "id": "6ba658af-8c6e-49cb-a3b6-0ce43d0667e4"
-    },
-    {
-      "email": "claudio1980@alura.com",
-      "contrasena": "Claudio21",
-      "id": "99f85e6b-dbad-45ce-aacc-4b1ec61f9026"
+      "email": "Jose@alura.com",
+      "contrasena": "Claudio22",
+      "id": "9762f57e-11db-4399-99d8-350abcff1f88"
     },
     {
       "email": "claudio1980@alura.com",
       "contrasena": "Claudio21",
-      "id": "c255840e-e411-445b-adbd-dabec6dc9639"
+      "id": "9e510494-7c23-4b36-baf5-2372faf84edf"
     },
     {
-      "email": "claudio1980@alura.com",
-      "contrasena": "Claudio21",
-      "id": "fa2b409c-3c0a-4c1f-ada0-c90fb38130ec"
+      "email": "agus@alura.com",
+      "contrasena": "Claudio0",
+      "id": "31b1fc9e-76e0-48d9-ab17-d01fbc97a91d"
     }
   ],
   "producto": [
     {
       "name": "Hulk",
       "imageUrl": "https://www.futuro.cl/wp-content/uploads/2018/09/29710722267_f9af8fece0_b.jpg",
-      "price": "$200",
-      "id": 2,
-      "alt": "Product",
-      "Section": "Posters",
-      "description": "Poster"
+      "price": "&200",
+      "description": "Poster",
+      "id": "1e8134a4-a1ab-43dd-be53-ac524c63c1f0"
     },
     {
       "name": "Hombre de hierro",
-      "imageUrl": "https://st2.depositphotos.com/1012627/10885/i/950/depositphotos_108853992-stock-photo-super-hero-iron-man.jpg",
+      "imageUrl": "https://st2.depositphotos.com/1012627/10885/i/950/depositphotos_108853992-stock-photo-super-heroe-iron-man.jpg",
       "price": "$500",
-      "description": "poster",
-      "id": 12
+      "description": "Cartel",
+      "id": "1fcb19de-028a-4484-a36e-bbf971b8dda7"
     },
     {
       "name": "Taza truuper",
       "imageUrl": "https://locasa.com.pe/wp-content/uploads/2021/07/storm_trooper1_500x500.jpg",
       "price": "$1500",
-      "description": "taza",
-      "id": 13
+      "description": "Taza",
+      "id": "fc7b9280-d85b-40b7-a288-344c3778b9cc"
     },
     {
       "name": "Mini Yoda",
       "imageUrl": "https://cdn.shopify.com/s/files/1/0568/5824/7366/products/F2849-4.gif?v=1660591382&width=1445",
       "price": "$1200",
       "description": "Muñeco",
-      "id": 14
+      "id": "bb9db543-307c-45e5-a98d-e8dc9839ba25"
     },
     {
-      "name": "Spider-Man",
+      "name": "Hombre araña",
       "imageUrl": "http://emiliux31.com/wp-content/uploads/2019/01/50182964_2142183392777160_8091969598301143040_n-1.jpg",
-      "price": "$500",
+      "price": "$200",
       "description": "Poster",
-      "id": 15
-    },
-    {
-      "name": "Supercan",
-      "imageUrl": "https://tierragamer.com/wp-content/uploads/2021/06/Captura-de-Pantalla-2021-06-08-a-las-16.53.38.jpg",
-      "price": "$500",
-      "description": "Poster",
-      "id": 16
-    },
-    {
-      "name": "Kang",
-      "imageUrl": "https://cdn1.eldia.com/022023/1676698478600.jpg",
-      "price": "$1000",
-      "description": "El conquistador",
-      "id": 18
+      "id": "f47d6e81-690d-4ac4-a8c9-85f2e26a8695"
     }
   ]
 }

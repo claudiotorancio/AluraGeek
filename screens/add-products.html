@@ -25,23 +25,29 @@
                     <input type="search" class="busqueda_campo" placeholder="¿que deseas buscar?" name="search">
                     <button class="button-busqueda"><img src="../assets/img/lupa.png" alt="Icono Lupa"></button>
                 </div>
-                <a href= "login.html"><button class="login">Menu Admin</button></a>
+                <div>            
+                <a href= "../screens/lista_cliente.html"><button class="login">Ver clientes</button></a>
+                </div>
                 <button class="button-busqueda-login"><img src="../assets/img/lupa-negro.png" alt="Icono lupa"></button>
             </div>
+            
         </header>
         <main>
             <section class="product-add">
                 <form class="form-control" data-form>
                     <p class="paragrafo">Agregar un nuevo producto</p>
-                    <input class="product-add-input__url" type="text" placeholder="URL del producto"  data-url>
+                    <input class="product-add-input__url" type="text" placeholder="URL del producto"  data-imageUrl>
                     <input class="product-add-input__name" type="text" placeholder="Nombre del producto"  data-name >
-                    <input class="product-add-input__price" type="text" placeholder="Precio del producto"  data-precio>
+                    <input class="product-add-input__price" type="text" placeholder="Precio del producto"  data-price>
                     <input class="product-add-textarea__description" placeholder="descripcion del producto" data-description>
-                    <button type="submit" class="product-add_btn">Agregar producto</button>
-                </form>
+                    <button type="submit" class="product-add_btn" name="agregar">Agregar producto</button>
+                    <a href="./lista-productos.html"><input type="button" class="product-add_btn" value="Ver productos"></a>                </form>
             </section>
         </main>
         <footer class="footer">Desarrollado por Claudio Torancio - 2022</footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
         <script type="module" src="../controllers/crear-productos-controllers.js"></script>
+       
+        
     </body>
 </html>

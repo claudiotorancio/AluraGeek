@@ -1,5 +1,6 @@
 import { clienteServices } from "../screens/servicios/client-service.js";
 
+
 const formulario = document.querySelector('[data-form]')
 
 const obtenerInformacion = async () => {
@@ -45,3 +46,4 @@ formulario.addEventListener('submit', (evento) => {
     })
 
 })
+

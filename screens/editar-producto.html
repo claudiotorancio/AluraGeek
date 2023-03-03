@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assets/css/cabecera.css" >
     <link rel="stylesheet" href="../assets/css/add.products.css" >
     <link rel="stylesheet" href="../assets/css/registro-completo.css" >
+    <link rel="stylesheet" href="../assets/css/lista_cliente.css" >
     <link rel="preconnect" href="http://fonts.googleapis.com" >
     <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin >
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -29,13 +30,53 @@
                 <button class="button-busqueda-login"><img src="../assets/img/lupa-negro.png" alt="Icono lupa"></button>
             </div>
         </header>
-            <main class="container">
-              <section class="register-card card">
-                <span class="register-card__icon-complete"></span>
-                <h1 class="register-card__title card__title">¡Edicion concluida!</h1>
-                <a href="../index.html" class="button">Volver a inicio</a>
-              </section>
-            </main>
+        <main class="container flex flex--center flex--column">
+            <section class="card cadastro">
+              <h1 class="card__title">Editar</h1>
+              <form action="#" class="flex flex--column" data-form>
+                <div class="input-container">
+                  <input
+                    name="nombre"
+                    id="nombre"
+                    class="input"
+                    type="text"
+                    placeholder="nombre"
+                    required
+                    data-name
+                  />
+                  <label class="input-label" for="nombre">Nombre</label>
+                  
+                </div>
+                <div class="input-container">
+                  <input
+                    name="precio"
+                    id="precio"
+                    class="input"
+                    type="text"
+                    placeholder="precio"
+                    required
+                    data-price
+                  />
+                  <label class="input-label" for="precio">Precio</label>
+                 
+                </div>
+                <div class="input-container">
+                    <input
+                      name="enlace"
+                      id="enlace"
+                      class="input"
+                      type="text"
+                      placeholder="enlace"
+                      required
+                      data-imageUrl
+                    />
+                    <label class="input-label" for="enlace">ImagenUrl</label>
+                    
+                  </div>
+                <button type="submit" class="button">Editar Producto</button>
+              </form>
+            </section>
+          </main>
         <section class="quienesSomos">
             <div class="quienesSomos_container">
                 <img class="quienesSomos_logo" src="../assets/img/Logo.svg" alt="AluraGeeK logo">
@@ -56,6 +97,6 @@
             </div>
         </section>              
         <footer class="footer">Desarrollado por Claudio Torancio - 2022</footer>
-        
+        <script type="module" src="../controllers/actualizar.producto.js"></script>
     </body>
 </html>
